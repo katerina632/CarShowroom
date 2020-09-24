@@ -1,4 +1,7 @@
+#include<iostream>
 #include"CarShowroom.h"
+
+using namespace std;
 int main() {
 	CarShowroom cs1;
 	cs1.AddCar(Car("Audi", 2007, 12000, 2.5));
@@ -30,5 +33,7 @@ int main() {
 	cout << "\nSort by year:\n";
 	cs1.SortByYear();
 	cs1.Show();
+
+	system("pause");
 	return 0;
 }
